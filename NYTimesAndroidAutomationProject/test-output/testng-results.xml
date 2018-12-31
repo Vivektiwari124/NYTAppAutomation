@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27683" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27683" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:39Z">
+      <class name="Com.NYT.Utils.UtilityClass">
+        <test-method status="PASS" signature="Appinvoke()[pri:0, instance:Com.NYT.Utils.UtilityClass@56235b8e]" name="Appinvoke" is-config="true" duration-ms="8174" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appinvoke -->
+      </class> <!-- Com.NYT.Utils.UtilityClass -->
+      <class name="Com.NYT.TestCases.ToVerifyVerticalScroll">
+        <test-method status="PASS" signature="ScrollTest()[pri:0, instance:Com.NYT.TestCases.ToVerifyVerticalScroll@3632be31]" name="ScrollTest" duration-ms="19472" started-at="2018-12-31T13:13:20Z" finished-at="2018-12-31T13:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollTest -->
+      </class> <!-- Com.NYT.TestCases.ToVerifyVerticalScroll -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
