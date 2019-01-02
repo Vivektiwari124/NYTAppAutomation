@@ -5,7 +5,9 @@
     <classes>
       <class name="Com.NYT.TestCases.toVerifyLogin">
         <methods>
-          <include name="toVerifyLogin"/>
+          <include name="toVerifyLoginfunc"/>
+          <include name="Appinvoke"/>
+          <include name="QuitApp"/>
         </methods>
       </class> <!-- Com.NYT.TestCases.toVerifyLogin -->
     </classes>

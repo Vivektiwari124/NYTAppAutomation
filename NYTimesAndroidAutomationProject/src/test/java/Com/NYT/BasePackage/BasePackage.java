@@ -4,7 +4,9 @@ import java.net.URL;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,7 +18,7 @@ import io.appium.java_client.MobileElement;
 
 public class BasePackage {
 	
-	@BeforeTest
+	@BeforeMethod
 	public static void Appinvoke() {
 		try {
 			File app = new File("E:\\Software\\Selenium oxygen\\reader-google-beta-6.21.3.apk");
@@ -41,9 +43,12 @@ public class BasePackage {
 
 	}
 	
-	/*@AfterSuite
+	
+	
+	@AfterMethod
 	public void QuitApp() {
-		driver.quit();
-	}*/
+		Const.driver.quit();
+		System.out.println("Browser is closed");
+	}
 
 }

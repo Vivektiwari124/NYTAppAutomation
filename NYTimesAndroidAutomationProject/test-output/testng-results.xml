@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27683" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:39Z">
+  <suite name="Suite" duration-ms="75280" started-at="2019-01-02T17:26:25Z" finished-at="2019-01-02T17:27:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27683" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:39Z">
-      <class name="Com.NYT.Utils.UtilityClass">
-        <test-method status="PASS" signature="Appinvoke()[pri:0, instance:Com.NYT.Utils.UtilityClass@56235b8e]" name="Appinvoke" is-config="true" duration-ms="8174" started-at="2018-12-31T13:13:12Z" finished-at="2018-12-31T13:13:20Z">
+    <test name="Test" duration-ms="75280" started-at="2019-01-02T17:26:25Z" finished-at="2019-01-02T17:27:41Z">
+      <class name="Com.NYT.TestCases.ToVerifyVerticalScroll">
+        <test-method status="PASS" signature="Appinvoke()[pri:0, instance:Com.NYT.TestCases.ToVerifyVerticalScroll@5bcab519]" name="Appinvoke" is-config="true" duration-ms="7545" started-at="2019-01-02T17:27:10Z" finished-at="2019-01-02T17:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Appinvoke -->
-      </class> <!-- Com.NYT.Utils.UtilityClass -->
-      <class name="Com.NYT.TestCases.ToVerifyVerticalScroll">
-        <test-method status="PASS" signature="ScrollTest()[pri:0, instance:Com.NYT.TestCases.ToVerifyVerticalScroll@3632be31]" name="ScrollTest" duration-ms="19472" started-at="2018-12-31T13:13:20Z" finished-at="2018-12-31T13:13:39Z">
+        <test-method status="PASS" signature="ScrollTest()[pri:0, instance:Com.NYT.TestCases.ToVerifyVerticalScroll@5bcab519]" name="ScrollTest" duration-ms="22082" started-at="2019-01-02T17:27:18Z" finished-at="2019-01-02T17:27:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScrollTest -->
+        <test-method status="PASS" signature="QuitApp()[pri:0, instance:Com.NYT.TestCases.ToVerifyVerticalScroll@5bcab519]" name="QuitApp" is-config="true" duration-ms="946" started-at="2019-01-02T17:27:40Z" finished-at="2019-01-02T17:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitApp -->
       </class> <!-- Com.NYT.TestCases.ToVerifyVerticalScroll -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Com.NYT.TestCases.toCheckSectionList">
+        <test-method status="PASS" signature="Appinvoke()[pri:0, instance:Com.NYT.TestCases.toCheckSectionList@5700d6b1]" name="Appinvoke" is-config="true" duration-ms="8791" started-at="2019-01-02T17:26:25Z" finished-at="2019-01-02T17:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appinvoke -->
+        <test-method status="PASS" signature="toInvokeSectionlistItem()[pri:0, instance:Com.NYT.TestCases.toCheckSectionList@5700d6b1]" name="toInvokeSectionlistItem" duration-ms="3552" started-at="2019-01-02T17:26:34Z" finished-at="2019-01-02T17:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toInvokeSectionlistItem -->
+        <test-method status="PASS" signature="QuitApp()[pri:0, instance:Com.NYT.TestCases.toCheckSectionList@5700d6b1]" name="QuitApp" is-config="true" duration-ms="970" started-at="2019-01-02T17:26:38Z" finished-at="2019-01-02T17:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitApp -->
+      </class> <!-- Com.NYT.TestCases.toCheckSectionList -->
+      <class name="Com.NYT.TestCases.toVerifyLogin">
+        <test-method status="PASS" signature="Appinvoke()[pri:0, instance:Com.NYT.TestCases.toVerifyLogin@6fd02e5]" name="Appinvoke" is-config="true" duration-ms="7774" started-at="2019-01-02T17:26:39Z" finished-at="2019-01-02T17:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appinvoke -->
+        <test-method status="PASS" signature="toVerifyLoginfunc()[pri:0, instance:Com.NYT.TestCases.toVerifyLogin@6fd02e5]" name="toVerifyLoginfunc" duration-ms="22589" started-at="2019-01-02T17:26:47Z" finished-at="2019-01-02T17:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyLoginfunc -->
+        <test-method status="PASS" signature="QuitApp()[pri:0, instance:Com.NYT.TestCases.toVerifyLogin@6fd02e5]" name="QuitApp" is-config="true" duration-ms="982" started-at="2019-01-02T17:27:09Z" finished-at="2019-01-02T17:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitApp -->
+      </class> <!-- Com.NYT.TestCases.toVerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
